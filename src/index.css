@@ -1,0 +1,48 @@
+:root {
+  --color-1: #feceb7;
+  --color-1-translucent: rgba(254, 206, 183, 0.2);
+  --color-2: #ef4539;
+  --color-3: #cb2d3e;
+  --color-4: #870734;
+  --color-5: #30122d;
+}
+
+::selection {
+  background-color: var(--color-2);
+  color: var(--color-1);
+}
+
+body {
+  background-color: var(--color-5);
+  color: var(--color-1);
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+a {
+  color: var(--color-2);
+}
+
+hr {
+  width: 70%;
+  border: 0;
+  border-top: 1px solid var(--color-1);
+  margin: 40px auto 0 auto;
+}

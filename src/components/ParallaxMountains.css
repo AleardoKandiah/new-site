@@ -1,0 +1,38 @@
+.ParallaxMountainsOuter {
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  background-color: var(--color-1);
+  margin-bottom: 100px;
+}
+
+.ParallaxMountainsOuter::after {
+  content: "Aleardo Kandiah | About Me";
+  top: 40%;
+  width: 100%;
+  position: absolute;
+  color: var(--color-4);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-family: 'Oswald', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .ParallaxMountainsOuter::after {
+    font-size: 2em;
+  }
+}
+
+.ForegroundMountain {
+  will-change: unset !important;
+}
+
+.ParallaxMountains {
+  aspect-ratio: 16 / 9;
+}
+
+.ParallaxMountains .Header {
+  text-align: center;
+  color: var(--color-4);
+}

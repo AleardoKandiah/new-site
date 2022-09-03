@@ -1,0 +1,49 @@
+.Projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.ProjectInner {
+  padding: 25px;
+  color: var(--color-4);
+}
+
+.Project {
+  color: inherit;
+  text-decoration: inherit;
+  text-align: left;
+  max-width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-1);
+
+  transition: transform 0.3s ease;
+  margin: 50px;
+}
+
+.Project:hover {
+  transform: scale(1.1);
+}
+
+.Project img {
+  width: 100%;
+  display: block;
+  background-color: #24292f;
+}
+
+.Project h3,
+.Project p {
+  margin: 0;
+}
+
+.Project h3 {
+  font-size: 2em;
+}
+
+.Project p {
+  font-size: 1.1em;
+}

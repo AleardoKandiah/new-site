@@ -1,0 +1,25 @@
+.OnlinePresences {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.OnlinePresence {
+  margin: 30px;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.OnlinePresence:hover {
+  transform: scale(1.1);
+}
+
+.OnlinePresence img {
+  height: 80px
+}
+
+.Email {
+  font-size: 1.5em;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}

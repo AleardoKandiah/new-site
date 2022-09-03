@@ -1,0 +1,49 @@
+.GitHubProjects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.GitHubProject {
+  text-decoration: inherit;
+  color: var(--color-4);
+  background-color: var(--color-1);
+  width: 300px;
+  transition: transform 0.3s ease;
+  margin: 25px;
+  padding: 25px;
+}
+
+.GitHubProject:hover {
+  transform: scale(1.1);
+}
+
+.GitHubProjectKeyContainer {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.GitHubProjectKey {
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px;
+  padding: 5px;
+}
+
+.GitHubProjectKey p {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  margin: 0 20px 0 0;
+}
+
+.GitHubProjectKey .ColorSquare {
+  width: 25px;
+  height: 25px;
+}
+
+.GitHubProjectsDescription {
+  margin: 20px;
+}
